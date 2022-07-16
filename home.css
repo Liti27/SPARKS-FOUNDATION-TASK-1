@@ -1,0 +1,108 @@
+body {
+  background-image: url(../image/glass-jar-full-money-front-decreasing-stacked-coins-against-white-background_23-2147919228.webp);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 120%;
+  background-position: center;
+}
+.font {
+  padding: 1px;
+  font-family: 'Roboto Slab', serif;
+  font-size: 3rem;
+  color: hsl(0, 0%, 0%) !important;
+  float: inherit;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: whitesmoke;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: rgb(225, 18, 11);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: thick;
+}
+
+li a:hover:not(.active) {
+  background-color: rgb(66, 177, 211);
+}
+
+.button {
+  border-radius: 4px;
+  background-color: #4ccec1;
+  border: none;
+  color: #ffffff;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 300px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: "\00bb";
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -21px;
+  transition: 0.7s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+.heading {
+  padding-left: 37%;
+  font-family: 'Noto Serif Display', serif;
+  color:darkgreen
+}
+p {
+  padding-left: 0%;
+  font-family: "Sofia", sans-serif;
+  font-size: x-large;
+  color:darkgreen
+}
+footer {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding-right: 50px;
+}
+.fa {
+  padding: 5px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 2px 2px;
+}
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+.fa-github {
+  background: white;
+  color: black;
+}
